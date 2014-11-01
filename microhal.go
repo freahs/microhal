@@ -5,7 +5,6 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"freahs/randmap"
 	"io/ioutil"
 	"os"
 	"regexp"
@@ -13,6 +12,7 @@ import (
 	"sync"
 	"time"
 
+	"github.com/freahs/randmap"
 	"github.com/jcelliott/lumber"
 )
 
